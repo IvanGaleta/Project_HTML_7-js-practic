@@ -15,7 +15,7 @@ const checkMultiplicity = function (num1, num2 ){
   }else{
     return false;
   }
-}
+};
 console.log(checkMultiplicity(25,5));
 // ----------Exercise3-------------//
 const triangle = function(num1, num2, num3){
@@ -24,7 +24,7 @@ const triangle = function(num1, num2, num3){
   }else{
     return false;
   }
-}
+};
 console.log(triangle(30,30,30));
 
 // ----------Exercise4-------------//
@@ -32,10 +32,20 @@ const oddSum = function (num){
   result = 0;
   for( let i=0; i<num; i++ ){
     if( i % 2 !== 0 ){
-      result = result +=i;      
+      result = result + i;      
     }
   }
     return result;
-}
+};
 console.log(oddSum(30));
 // ----------Exercise5-------------//
+
+const primeNumber = function(num){
+  i = 2;
+  for(let i; i < num; i++)
+  if( num % i === 0 ){
+    return false;
+  } 
+  return num > 1;
+};
+console.log(primeNumber(2));
