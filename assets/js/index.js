@@ -26,6 +26,7 @@ const triangle = function(num1, num2, num3){
   }
 }
 console.log(triangle(30,30,30));
+
 // ----------Exercise4-------------//
 const oddSum = function (num){
   result = 0;
